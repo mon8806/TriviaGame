@@ -2,9 +2,18 @@ body{
     background-image: url("../images/Disney.jpg");
     text-align: center;
     color: white;
-    font-size: 60px;
-    width: 100%;
-    height: auto
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    /* background-blend-mode: screen; */
+}
+h1{
+    background-color: rgb(119, 192, 235);
+    margin:0% 35% 0% 35%;
+    opacity: .8;
+    filter: alpha(opacity=50);
+    color: black;
 }
 .btn{
     background-color: rgb(31, 96, 180);
@@ -12,7 +21,21 @@ body{
     font-size: 30px;
     width:120px;
     height:50px;
+    margin-top: 10%;
 }
-#container{
+#display{
     background-color: rgb(119, 192, 235);
+    margin:0% 40% 0% 40%;
+    opacity: .8;
+    filter: alpha(opacity=50);
+    color: black;
+    margin-top: 5%;
+    font-size: 60px;
+}
+#questions{
+    background-color: rgb(119, 192, 235);
+    margin:0% 15% 0% 15%;
+    opacity: .8;
+    filter: alpha(opacity=50);
+    color: black;
 }
